@@ -1,0 +1,197 @@
+/**
+ * URL Shortener Plugin
+ * https://mythemeshop.com/plugins/url-shortener/
+ */
+#main-fields-box {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+#main-fields-box .nav-tab-wrapper {
+    padding: 0;
+}
+#main-fields-box .metabox-holder {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+#post-body-content .link-editor-field {
+    padding: 0 12px 6px;
+}
+.link-editor-field label {
+    display: block;
+    font-weight: bold;
+    padding: 6px 0 6px;
+    color: #222;
+}
+#field-styling_font_weight, #field-styling_font_underline, #field-styling_color, #field-styling_hover_color {
+    width: 50%;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+}
+#editshortlink ::-webkit-input-placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+#editshortlink ::-moz-placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+#editshortlink :-ms-input-placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+#editshortlink :-moz-placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+#addshortlink ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ddd;
+    font-style: italic;
+}
+#addshortlink ::-moz-placeholder { /* Firefox 19+ */
+    color: #ddd;
+    font-style: italic;
+}
+#addshortlink :-ms-input-placeholder { /* IE 10+ */
+    color: #ddd;
+    font-style: italic;
+}
+#addshortlink :-moz-placeholder { /* Firefox 18- */
+    color: #ddd;
+    font-style: italic;
+}
+#minor-publishing-actions {
+    margin-bottom: 20px;
+}
+input#urlshortener_basic-link_name {
+    font-size: 1.7em;
+    padding: 6px 8px;
+    min-width: 80px;
+}
+#field-link_name > span {
+    font-size: 1.7em;
+}
+.wp-list-table .dashicons {
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+}
+.wp-list-table .link-title {
+    font-weight: bold;
+}
+.open-shortlink {
+    display: none;
+}
+tr:hover .open-shortlink {
+    display: inline-block;
+}
+.ls-repeatable-dummy {
+  display: none;
+}
+.wp-picker-holder {
+    z-index: 1;
+    position: absolute;
+}
+.ls-add-repeatable,
+.ls-remove-repeatable {
+    text-decoration: none;
+    margin-left: 4px;
+}
+.ls-add-repeatable .dashicons,
+.ls-remove-repeatable .dashicons {
+    margin-top: 3px;
+}
+.redirection-method {
+  color: #ccc;
+}
+#url-shortener-prli-migrate-log {
+    width: 600px;
+    max-width: 100%;
+    height: 200px;
+    display: none;
+}
+#start-migrate {
+    margin-bottom: 12px;
+}
+.form-table th:empty, .form-table td:empty {
+    padding: 0;
+}
+.wp-list-table .shortlink-url-field-copy .dashicons,
+.wp-list-table .shortlink-url-field-switch .dashicons {
+    line-height: 24px;
+    height: 24px;
+    pointer-events: none;
+}
+.wp-list-table #copy-action .shortlink-url-field-copy,
+.wp-list-table #copy-action .shortlink-url-field-switch {
+    height: 24px;
+    padding: 0 2px 1px;
+    border-bottom-width: 0px;
+    border-radius: 0;
+}
+#submitlink .shortlink-url-field-copy .dashicons,
+#submitlink .shortlink-url-field-switch .dashicons {
+    pointer-events: none;
+    line-height: 28px;
+}
+.wp-list-table #copy-action .shortlink-url-field-copy,
+.wp-list-table #copy-action .shortlink-url-field-switch {
+    width: 28px;
+    margin-top: 1px;
+    border-bottom-width: 0px;
+    border-radius: 0;
+    float: left;
+    margin-left: -1px;
+}
+#copy-action .shortlink-url-field-copy:focus, 
+#copy-action .shortlink-url-field-switch:focus {
+    box-shadow: 0 1px 0 #ccc;
+    border-color: #ccc;
+}
+#copy-action, 
+#copy-action input {
+    text-align: left;
+}
+#submitlink #copy-action input {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: block;
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.wp-list-table .shortlink-url-field {
+    float: left;
+}
+#shortlinks-form tr:hover .shortlink-url-field-copy {
+    
+}
+.shortlink-url-field {
+    width: 200px;
+}
+.column-clicks {
+    width: 50px;
+}
+.links .column-date {
+    width: 180px;
+}
+.links .column-url {
+    width: 262px;
+}
+.copy-action-title {
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 10px;
+    line-height: 12px;
+    display: block;
+}
+#shortlinksubmitdiv > .inside {
+    padding: 0;
+    margin: 0;
+}
+#adv-settings label[for="shortlinksubmitdiv-hide"] {
+    display: none;
+}
